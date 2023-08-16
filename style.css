@@ -1,0 +1,153 @@
+body{
+    background-color: #1b2223;
+    position: static;
+    height: 100%;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/joao-ferreira-0v7B7I_jOMI-unsplash.jpg');
+    filter: blur(12px);
+}
+
+.left{
+    background-color: #3A4F50 ;
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    left: 15%;
+    height: 600px;
+    top:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label img{
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    length:50px;
+
+}
+
+input{
+    background-color: #3A4F50 ;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+}
+
+#fname{
+    border: 0px;
+}
+#password{
+    border: 0px;
+}
+
+.label-username{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.label-password{
+    display: inline;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+
+::placeholder{
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.button-19{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+
+
+.right{
+    display: inline-block;
+    position: fixed;
+    width:666.391px;
+    height: 600px;
+    left: 50%;
+    top:208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right img{
+    width:666.391px;
+    height: 600px;
+}
+
+
+
+
